@@ -1,0 +1,2 @@
+# WeiboMiddleDialog
+仿微博主页点击中间加号时 弹出的dialog或者popupWindow效果, 本demo采用dialog
