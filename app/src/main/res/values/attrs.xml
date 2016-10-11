@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 点击加号的对话框样式 ,无标题 -->
+    <style name="WeiboStyleDialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景颜色 -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 动画效果 -->
+        <item name="android:windowAnimationStyle">@style/WeiboStyleAnimation</item>
+        <!-- 打开后背部的阴影 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 点击外部是否能关闭 -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- 点击加号的对话框的动画效果 -->
+    <style name="WeiboStyleAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/input_method_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_exit</item>
+    </style>
+</resources>
